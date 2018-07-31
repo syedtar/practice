@@ -68,7 +68,7 @@ public class RestAssuredExamples extends APIBaseClass
 			System.out.println("Updated url using getSystemProperty Value"+ url);
 			responseBody =  RestLibrary.getServiceResponse(url);
 			System.out.println(responseBody.prettyPrint());
-			System.out.println();
+
 
 		} catch (Exception e) {
 			e.printStackTrace();
